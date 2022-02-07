@@ -2,6 +2,7 @@
 using Alura.ListaLeitura.App.Repositorio;
 using Microsoft.AspNetCore.Hosting;
 using System;
+using System.Linq;
 
 namespace Alura.ListaLeitura.App
 {
@@ -17,10 +18,9 @@ namespace Alura.ListaLeitura.App
                 .Build();
             host.Run();
 
+            //    var string1 = "radar";
+            //    var result = string1.SequenceEqual(string1.Reverse());
 
-            //ImprimeLista(_repo.ParaLer);
-            //ImprimeLista(_repo.Lendo);
-            //ImprimeLista(_repo.Lidos);
         }
 
         static void ImprimeLista(ListaDeLeitura lista)
@@ -29,3 +29,6 @@ namespace Alura.ListaLeitura.App
         }
     }
 }
+
+
+
